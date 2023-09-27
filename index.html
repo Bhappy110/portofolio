@@ -1,0 +1,228 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Biodata</title>
+<style>
+    body{
+       background-color: #1B1B32;
+    }
+    .wrap{
+        margin-top: 150px;
+        margin-bottom: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .sub-wrap{
+        
+    }
+    .information{
+        margin-top: 100px;
+        border: 2px solid #ffffff;
+        width: 800px;
+        height: 390px;
+        overflow: hidden;
+    }
+    .header{
+    }
+    .title-header{
+        width: 100%;
+        text-align: center;
+        font-family: 'Martian Mono', monospace;
+        color: #fff;
+    }
+    .photo-slot{
+        display: flex;
+        justify-content: center;
+    }
+    .photo-profile{
+        width: 200px;
+    }
+    .profile-name{
+        text-align: center;
+        color: #fff;
+        font-family: 'Martian Mono', monospace;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-bottom: 20px;
+    }
+    .btn{
+        text-align: center;
+        align-items: center;
+        display: block;
+        border: 1px solid #ffffff;
+        background-color: #3B3B4F;
+        padding: 7px 30px;
+        text-decoration: none;
+        color: #ffffff;
+        transition: 0.5s;
+        
+    }
+    .btn{
+        margin-left: 10px;
+    }
+    .btn:hover{
+        background-color: #ffffff;
+        color: #000000;
+        transition: 0.5s;
+    }
+    .btn :nth-child(1){
+        margin-left: 0;
+    }
+    .btn-tag{
+        margin-left: 10px;
+    }
+    .profile-desc{
+        text-align: justify;
+        color: #fff;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .content{
+        margin: 10px 10px;
+    }
+    .line{
+        margin: 0px 40px;
+    }
+    .body{
+        margin: 0px 40px;
+    }
+    .profile-project-title{
+        margin-top: 40px;
+        text-align: center;
+        color: #fff;
+        font-family: 'Martian Mono', monospace;
+    }
+    .profile-project{
+        display: flex;
+        justify-content: center;
+    }
+    .profile-project img{
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+        transition: 0.8s;
+    }
+    .profile-project .project:nth-child(1){
+        margin-left: 0px;
+    }
+    .profile-project img:hover{
+        width: 180px;
+        height: 180px;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+    .profile-motto{
+        margin-top: 60px;
+        text-align: center;
+        color: #fff;
+    }
+    .profile-motto h2{
+        font-family: 'Martian Mono', monospace;
+    }
+    .profile-motto h3{
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .show-button{
+        margin-top: 20px;
+        display: block;
+        width: 800px;
+        border: 2px solid #ffffff;
+        color:#ffffff;
+        text-align: center;
+        padding: 10px 0px;
+        font-family: 'Martian Mono', monospace;
+        background-color: #3B3B4F;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    .show-button:hover{
+        cursor: pointer;
+        background-color: #c4c4c4;
+        color: #313131;
+        transition: 0.3s;
+    }
+</style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="sub-wrap">
+            <div class="information" id="information">
+                <div class="content">
+                    <div class="header">
+                        <div class="title-header">
+                            <h2>About Me</h2>
+                        </div>
+                        <div class="photo-slot">
+                            <img src="profile.jpg" alt="" class="photo-profile">
+                        </div>
+                        <div class="profile-name">
+                            <h2>Happy Bagus Bimo Prakoso</h2>
+                        </div>
+                        <div class="social-media">
+                            <a href="https://github.com/Bhappy110" class="btn btn-git"><i class="fa-brands fa-github"></i><span class="btn-tag">Github</span></a>
+                            <a href="https://www.instagram.com/" class="btn btn-git"><i class="fa-brands fa-instagram"></i><span class="btn-tag">Instagram</span></a>
+                        </div>
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="profile-desc">
+                           <p>
+                            Hai nama saya Happy Bagus Bimo Prakoso atau biasa dipanggil Bimo. 
+                            Saya merupakan mahasiswa universitas STEKOM. Saya mengambil prodi Teknik Informatika karena saya sangat tertarik 
+                            dengan dunia pemrograman. Hobby saya adalah editing, photography, bermain game, dan saya cenderung memiliki rasa ingin 
+                            tahu yang tinggi di bidang tech terutama pemrograman dan juga esport seperti mobile legend, League of Legend, Dota 2, dan
+                            baru baru ini saya sedang mempelajari skena kompetitif dari game valorant.
+                           </p>
+                        </div>
+                        <h2 class="profile-project-title">Project Photoshop</h2>
+                        <div class="profile-project">
+                            <div class="project"><img src="image1.jpg" alt=""></div>
+                            <div class="project"><img src="image2.jpg" alt=""></div>
+                            <div class="project"><img src="image3.jpg" alt=""></div>
+                        </div>
+                        <div class="profile-motto">
+                            <h2>Motto</h2>
+                            <h3>"Art in every moment"</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-info">
+                <button class="show-button" id="show-button">Show More</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/df50ccfc64.js" crossorigin="anonymous"></script>
+    <script>
+        var showBtn = document.getElementById('show-button');
+        var frame = document.getElementById('information');
+        var hide = true;
+        showBtn.addEventListener("click", showMore);
+
+        function showMore(){
+            if(hide) {
+                frame.style.height = "910";
+                frame.style.transition = "0.8s";
+                showBtn.innerText = "Show Less";
+            }else{
+                frame.style.height = "390";
+                frame.style.transition = "0.8s";
+                showBtn.innerText = "Show More";
+            }
+            hide = !hide;
+        }
+    </script>
+</body>
+</html>
